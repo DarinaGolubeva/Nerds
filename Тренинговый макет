@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <title>nerds - магазин готовых макетов</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container-logo">
+       <img src="/.jpg" alt="nerds">
+      </div>
+      <div class="container-navigation">
+       <nav class="main-navigation">
+        <ul>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      <div class="container-basket">
+        <img src="/.jpg" alt="basket">
+        <ul>
+          <li><a href="#">Корзина</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+        <div class="salutation">
+          <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>
+        <div class="selection-bar">
+         <div class="price">
+           <p class="price">Стоимость</p>
+           <!--Как вставить бегунок. Как ввести окна от и до-->
+         </div>
+         <div class="grid">
+           <p class="grid">Сетка</p>
+           <ul class="grid">
+             <li>Адаптивная</li>
+             <li>Фиксированная</li>
+             <li>Резиновая</li>
+             <!--Верное ли написание, ибо это не просто меню, а способ
+             отсеивания ненужной инфы. Как добавить круги с точкой внутри?-->
+           </ul>
+         </div>
+         <div class="features">
+           <p class="features">Особенности</p>
+           <ul class="features">
+             <li>Слайдер</li>
+             <li>Блок приемуществ</li>
+             <li>Новости</li>
+             <li>Галерея</li>
+             <li>Корзина</li>
+           </ul>
+           <!--Верно ли написание, ибо это не просто меню, а способ
+           отсеивания ненужной инфы. Как добавить чекбоксы на страницу?-->
+         </div>
+         <div class="button-show">
+           <button class="button-show" type="show">Показать</button>
+         </div>
+       </div>
+       <div class="layout-bar">
+         <p class="sorting">СОРТИРОВАТЬ:</p>
+         <div class="sorting">
+           <ul class="sorting">
+             <li>ПО ЦЕНЕ</li>
+             <li>ПО ТИПУ</li>
+             <li>ПО ФУНКЦИОНАЛУ</li>
+           </ul>
+           <!--Верно ли написание, ибо это не просто меню, а способ
+           отсеивания ненужной инфы. Как добавить пунктир?-->
+         </div>
+         <div class="buttons-up-down">
+           <a href="#"><img src="/.jpg" width="" height="" alt="вниз"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="вверх"></a>
+         </div>
+         <div class="layouts">
+           <a href="#"><img src="/.jpg" width="" height="" alt="aviator"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="sunset"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="forte"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="marqute"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="avenue"></a>
+           <a href="#"><img src="/.jpg" width="" height="" alt="dovetail"></a>
+         </div>
+         <!--Нужно ли разделять див на два столбца лево-право? Как наложить
+         на изображения всплывающие окна? Добавлять переключение картинок?-->
+         <div class="button-container">
+            <div class="pages">
+              <ul class="pages">
+               <li><a href="#">1</a></li>
+               <li><a href="#">2</a></li>
+               <li><a href="#">3</a></li>
+              </ul>
+            </div>
+            <div class="button-next">
+              <ul class="pages">
+               <li><a href="#">СЛЕДУЮЩАЯ</a></li>
+              </ul>
+              <!--Верно ли написание, если на каждой странице разный адрес
+              перехода? Например, если мы находимся на первой, то перейдем на
+              вторую, а если на второй, то на третью. Как добавить рамки?-->
+            </div>
+         </div>
+        <div class="map-container">
+          <img class="map" width="" height="">
+          <div class="contact-container">
+            <div class="contact-text">
+              <p>NERDS DESIGN STUDIO</p>
+              <p>
+               191186, Санкт-Петербург,<br>
+               ул. Б. Конюшенная, д. 19/8
+              </p>
+              <p>тел. +7 (812) 275-75-75</p>
+            </div>
+            <div class="button-write-us">
+              <a class="button-write-us" href="#">НАПИШИТЕ НАМ</a>
+            </div>
+            <div class="img-logo">
+             <img src="/.jpg" class="img-logo" width="" height="" alt="nerds">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+        <div class="social-buttons">
+          <a class="social-button-vk" href="#"><img src="/.jpg" width="" height="" alt="ВКонтакте"></a>
+          <a class="social-button-fb" href="#"><img src="/.jpg" width="" height="" alt="Facebook"></a>
+          <a class="social-button-inst" href="#"><img src="/.jpg" width="" height="" alt="Instagram"></a>
+        </div>
+        <div class="social-text">
+          <p>Давайте дружить, это выгодно!</p>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </footer>
+  </body>
+</html>
